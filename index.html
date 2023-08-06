@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rotate Method</title>
+</head>
+<style>
+    /* ------rotate (transform)------- */
+    div {
+        margin: auto;
+        margin-top: 120px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        /* transform: skewX(10deg); */
+        /* transform: skewY(20deg); */
+        transform: rotate(20deg);
+        transition: width 2s, height 4s;
+    }
+    div:hover{
+        width: 700px;
+        height: 400px;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>Transform & Transition</h1>
+    </div>
+</body>
+
+</html>
